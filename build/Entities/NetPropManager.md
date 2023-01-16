@@ -30,8 +30,6 @@ Allows reading and updating the network properties of an entity.  If the entity
     * [.SetPropVector(entity, propertyName, value)](#NetPropManager+SetPropVector) ⇒ <code>void</code>
     * [.SetPropVectorArray(entity, propertyName, value, arrayElement)](#NetPropManager+SetPropVectorArray) ⇒ <code>void</code>
 
-<br />
----
 <a name="NetPropManager+GetPropArraySize"></a>
 
 ### netPropManager.GetPropArraySize(entity, propertyName) ⇒ <code>int</code>
@@ -44,7 +42,6 @@ Returns the size of an netprop array, or -1.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropEntity"></a>
 
@@ -58,7 +55,6 @@ Reads an EHANDLE-valued netprop (21 bit integer). Returns the script handle of t
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropEntityArray"></a>
 
@@ -73,7 +69,6 @@ Reads an EHANDLE-valued netprop (21 bit integer) from an array. Returns the scri
 | propertyName | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropFloat"></a>
 
@@ -87,7 +82,6 @@ Reads a float-valued netprop.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropFloatArray"></a>
 
@@ -102,7 +96,6 @@ Reads a float-valued netprop from an array.
 | propertyName | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropInt"></a>
 
@@ -116,7 +109,6 @@ Reads an integer-valued netprop.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropIntArray"></a>
 
@@ -131,7 +123,6 @@ Reads an integer-valued netprop from an array.
 | propertyName | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropString"></a>
 
@@ -145,7 +136,6 @@ Reads an string-valued netprop.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropStringArray"></a>
 
@@ -160,7 +150,6 @@ Reads an string-valued netprop from an array.
 | propertyName | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropType"></a>
 
@@ -174,7 +163,6 @@ Returns the name of the netprop type as a string.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropVector"></a>
 
@@ -188,7 +176,6 @@ Reads a 3D vector-valued netprop. To do:  Does it work for other dimensions too
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+GetPropVectorArray"></a>
 
@@ -203,7 +190,6 @@ Reads a 3D vector-valued netprop from an array.
 | propertyName | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+HasProp"></a>
 
@@ -217,7 +203,6 @@ Checks if a netprop exists.
 | entity | [<code>Entity</code>](#Entity) | 
 | propertyName | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropEntity"></a>
 
@@ -232,7 +217,6 @@ Sets an EHANDLE-valued netprop (21 bit integer) to reference the specified entit
 | propertyName | <code>string</code> | 
 | value | [<code>Entity</code>](#Entity) | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropEntityArray"></a>
 
@@ -248,7 +232,6 @@ Sets an EHANDLE-valued netprop (21 bit integer) from an array to reference the s
 | value | [<code>Entity</code>](#Entity) | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropFloat"></a>
 
@@ -263,7 +246,6 @@ Sets a netprop to the specified float.
 | propertyName | <code>string</code> | 
 | value | <code>float</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropFloatArray"></a>
 
@@ -279,7 +261,6 @@ Sets a netprop from an array to the specified float.
 | value | <code>float</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropInt"></a>
 
@@ -294,7 +275,6 @@ Sets a netprop to the specified integer.
 | propertyName | <code>string</code> | 
 | value | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropInt"></a>
 
@@ -310,7 +290,6 @@ Sets a netprop from an array to the specified integer.
 | value | <code>int</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropString"></a>
 
@@ -325,7 +304,6 @@ Sets a netprop to the specified string.
 | propertyName | <code>string</code> | 
 | value | <code>string</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropStringArray"></a>
 
@@ -341,7 +319,6 @@ Sets a netprop from an array to the specified string.
 | value | <code>string</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropVector"></a>
 
@@ -356,7 +333,6 @@ Sets a netprop to the specified vector.
 | propertyName | <code>string</code> | 
 | value | <code>Vector</code> | 
 
-<br />
 ---
 <a name="NetPropManager+SetPropVectorArray"></a>
 
@@ -372,5 +348,5 @@ Sets a netprop from an array to the specified vector.
 | value | <code>Vector</code> | 
 | arrayElement | <code>int</code> | 
 
-<br />
+---
 ---

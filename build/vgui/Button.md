@@ -25,25 +25,20 @@ Default VGUI button
     * [.SetSelected(state)](#Button+SetSelected)
     * [.SetSelectedColor(r, g, b, a, i, j, k, l)](#Button+SetSelectedColor)
 
-<br />
----
 <a name="Button+ForceDepressed"></a>
 
 ### button.ForceDepressed()
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+HasFocus"></a>
 
 ### button.HasFocus() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+IsArmed"></a>
 
 ### button.IsArmed() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+SetArmed"></a>
 
@@ -54,7 +49,6 @@ Default VGUI button
 | --- | --- |
 | state | <code>boolean</code> | 
 
-<br />
 ---
 <a name="Button+SetArmedSound"></a>
 
@@ -65,7 +59,6 @@ Default VGUI button
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-<br />
 ---
 <a name="Button+SetArmedColor"></a>
 
@@ -83,31 +76,26 @@ Default VGUI button
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-<br />
 ---
 <a name="Button+IsDepressed"></a>
 
 ### button.IsDepressed() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+IsMouseClickEnabled"></a>
 
 ### button.IsMouseClickEnabled() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+SetMouseClickEnabled"></a>
 
 ### button.SetMouseClickEnabled() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+IsSelected"></a>
 
 ### button.IsSelected() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+SetSelected"></a>
 
@@ -118,13 +106,11 @@ Default VGUI button
 | --- | --- |
 | state | <code>boolean</code> | 
 
-<br />
 ---
 <a name="Button+SetButtonActivationType"></a>
 
 ### button.SetButtonActivationType()
 **Kind**: instance method of [<code>Button</code>](#Button)  
-<br />
 ---
 <a name="Button+SetDefaultColor"></a>
 
@@ -142,7 +128,6 @@ Default VGUI button
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-<br />
 ---
 <a name="Button+SetDepressedColor"></a>
 
@@ -160,7 +145,6 @@ Default VGUI button
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-<br />
 ---
 <a name="Button+SetDepressedSound"></a>
 
@@ -171,7 +155,6 @@ Default VGUI button
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-<br />
 ---
 <a name="Button+SetReleasedSound"></a>
 
@@ -182,7 +165,6 @@ Default VGUI button
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-<br />
 ---
 <a name="Button+SetSelected"></a>
 
@@ -193,7 +175,6 @@ Default VGUI button
 | --- | --- |
 | state | <code>boolean</code> | 
 
-<br />
 ---
 <a name="Button+SetSelectedColor"></a>
 
@@ -211,5 +192,5 @@ Default VGUI button
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-<br />
+---
 ---

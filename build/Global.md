@@ -22,8 +22,6 @@ Global methods in vscript
     * [.TraceLine(start, end, ignored_ent)](#Global+TraceLine) ⇒ <code>float</code>
     * [.UniqueString(suffix)](#Global+UniqueString) ⇒ <code>string</code>
 
-<br />
----
 <a name="Global+CreateProp"></a>
 
 ### global.CreateProp(classname, origin, modelname, activity) ⇒ <code>handle</code>
@@ -38,7 +36,6 @@ Create a prop. The class should be a prop_physics style entity.
 | modelname | <code>string</code> | 
 | activity | <code>int</code> | 
 
-<br />
 ---
 <a name="Global+CreateSceneEntity"></a>
 
@@ -51,7 +48,6 @@ Create a scene entity to play the specified scene.
 | --- | --- |
 | string | <code>string</code> | 
 
-<br />
 ---
 <a name="Global+DoIncludeScript"></a>
 
@@ -65,7 +61,6 @@ Execute the script file "scripts/vscripts/" + filename in the scope of scope. Th
 | filename | <code>string</code> | 
 | scope | <code>table</code> | 
 
-<br />
 ---
 <a name="Global+IncludeScript"></a>
 
@@ -79,7 +74,6 @@ Execute the script file "scripts/vscripts/" + filename in the scope of scope, th
 | filename | <code>string</code> | 
 | scope | <code>table</code> | 
 
-<br />
 ---
 <a name="Global+EntFire"></a>
 
@@ -96,7 +90,6 @@ Generate an entity I/O event. Value, delay and activator are optional.
 | delay | <code>number</code> | 
 | activator | [<code>Entity</code>](#Entity) | 
 
-<br />
 ---
 <a name="Global+EntFireByHandle"></a>
 
@@ -114,7 +107,6 @@ Generate an entity I/O event. First parameter is an entity instance.
 | activator | [<code>Entity</code>](#Entity) \| <code>string</code> | 
 | caller | [<code>Entity</code>](#Entity) \| <code>string</code> | 
 
-<br />
 ---
 <a name="Global+FrameTime"></a>
 
@@ -122,7 +114,6 @@ Generate an entity I/O event. First parameter is an entity instance.
 Get the time spent on the server in the last frame.
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
-<br />
 ---
 <a name="Global+GetMapName"></a>
 
@@ -130,7 +121,6 @@ Get the time spent on the server in the last frame.
 Get the name of the map.
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
-<br />
 ---
 <a name="Global+RandomFloat"></a>
 
@@ -144,7 +134,6 @@ Generate a random floating point number within a range, inclusive
 | min | <code>float</code> | 
 | max | <code>float</code> | 
 
-<br />
 ---
 <a name="Global+RandomInt"></a>
 
@@ -158,7 +147,6 @@ Generate a random integer within a range, inclusive
 | min | <code>int</code> | 
 | max | <code>int</code> | 
 
-<br />
 ---
 <a name="Global+SendToConsole"></a>
 
@@ -171,7 +159,6 @@ Send a string to the console as a command.
 | --- | --- |
 | command | <code>string</code> | 
 
-<br />
 ---
 <a name="Global+ShowMessage"></a>
 
@@ -184,7 +171,6 @@ Print a hud message on all clients
 | --- | --- |
 | string | <code>string</code> | 
 
-<br />
 ---
 <a name="Global+Time"></a>
 
@@ -192,7 +178,6 @@ Print a hud message on all clients
 Get the current server time
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
-<br />
 ---
 <a name="Global+TraceLine"></a>
 
@@ -207,7 +192,6 @@ Given 2 points and an entity to ignore, return fraction along line that hits wor
 | end | <code>Vector</code> | 
 | ignored_ent | [<code>Entity</code>](#Entity) | 
 
-<br />
 ---
 <a name="Global+UniqueString"></a>
 
@@ -220,5 +204,5 @@ Generate a string guaranteed to be unique across the life of the script VM, with
 | --- | --- |
 | suffix | <code>string</code> | 
 
-<br />
+---
 ---

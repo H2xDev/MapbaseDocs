@@ -13,8 +13,6 @@ Script handle class for animating entities such as props.
     * [.LookupAttachment(string)](#BaseAnimating+LookupAttachment) ⇒ <code>int</code>
     * [.SetBodygroup(group, index)](#BaseAnimating+SetBodygroup) ⇒ <code>void</code>
 
-<br />
----
 <a name="BaseAnimating+GetAttachmentAngles"></a>
 
 ### baseAnimating.GetAttachmentAngles(id) ⇒ <code>Vector</code>
@@ -26,7 +24,6 @@ Get the attachment id's angles as a p,y,r vector.
 | --- | --- |
 | id | <code>int</code> | 
 
-<br />
 ---
 <a name="BaseAnimating+GetAttachmentOrigin"></a>
 
@@ -39,7 +36,6 @@ Get the attachment id's origin vector
 | --- | --- |
 | id | <code>int</code> | 
 
-<br />
 ---
 <a name="BaseAnimating+GetObjectScaleLevel"></a>
 
@@ -47,7 +43,6 @@ Get the attachment id's origin vector
 The scale size of the entity
 
 **Kind**: instance method of [<code>BaseAnimating</code>](#BaseAnimating)  
-<br />
 ---
 <a name="BaseAnimating+IsSequenceFinished"></a>
 
@@ -55,7 +50,6 @@ The scale size of the entity
 Ask whether the main sequence is done playing
 
 **Kind**: instance method of [<code>BaseAnimating</code>](#BaseAnimating)  
-<br />
 ---
 <a name="BaseAnimating+LookupAttachment"></a>
 
@@ -68,7 +62,6 @@ Get the ID for the named attachment.
 | --- | --- |
 | string | <code>string</code> | 
 
-<br />
 ---
 <a name="BaseAnimating+SetBodygroup"></a>
 
@@ -82,5 +75,5 @@ Sets a bodygroup. Group is the index for the desired group, and index is the des
 | group | <code>int</code> | 
 | index | <code>int</code> | 
 
-<br />
+---
 ---
