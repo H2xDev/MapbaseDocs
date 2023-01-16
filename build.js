@@ -83,4 +83,4 @@ function generateContentsLines(object, level = 0) {
 
 generateContentsLines(contents);
 
-console.log(contentsLines);
+console.log(contentsLines.join('\n'));
