@@ -47,7 +47,6 @@ const classNames = templateData.reduce((classNames, identifier) => {
   return classNames;
 }, []);
 
-console.log(contents);
 
 /* create a documentation file for each class */
 classNames.forEach(className => {
@@ -65,3 +64,5 @@ classNames.forEach(className => {
   const output = jsdoc2md.renderSync({ data: templateData, template: template })
   fs.writeFileSync(dest, output);
 });
+
+console.log(contents);
