@@ -70,11 +70,15 @@ const contentsLines = [];
 
 function generateContentsLines(object, level = 0) {
   Object
-    .entries(contents)
-    .forEach(([key, object]) => {
+    .entries(object)
+    .forEach(([key, obj]) => {
       const indent = new Array(level * 2).fill(' ').join('');
       contentsLines.push(indent + key);
-    })
+
+      if (obj) {
+        generateContentsLines(obj, level + 1);
+      }
+    });
 }
 
 generateContentsLines(contents);
