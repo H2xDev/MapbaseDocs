@@ -73,7 +73,8 @@ function generateContentsLines(object, folder = '', level = 0) {
     .entries(object)
     .forEach(([key, obj]) => {
       const indent = new Array(level * 2).fill(' ').join('');
-      contentsLines.push(indent + '- ' + `[${key}](${folder + '/' + key})`);
+      const ext = !obj ? '.md' : '';
+      contentsLines.push(indent + '- ' + `[${key}](${folder + '/' + key + ext})`);
 
       if (obj) {
         generateContentsLines(obj, folder + '/' + key, level + 1);

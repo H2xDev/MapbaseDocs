@@ -2,9 +2,9 @@
 
 ## Contents
 - [Entities](/Entities)
-  - [Entities](/Entities/Entities)
-  - [Entity](/Entities/Entity)
+  - [Entities](/Entities/Entities.md)
+  - [Entity](/Entities/Entity.md)
 - [vgui](/vgui)
-  - [Button](/vgui/Button)
-  - [Label](/vgui/Label)
-  - [Panel](/vgui/Panel)
+  - [Button](/vgui/Button.md)
+  - [Label](/vgui/Label.md)
+  - [Panel](/vgui/Panel.md)
