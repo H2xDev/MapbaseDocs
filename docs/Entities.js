@@ -1,5 +1,6 @@
 /**
- * Global lib that helps get entities you need
+ * An interface to find and iterate over the script handles for the entities in play.  
+ * To iterate over a set of entities, pass null to the previous argument in the appropriate method to start an iteration, or reference to a previously found entity to continue a search. Example:
  *
  * @hideconstructor
  */

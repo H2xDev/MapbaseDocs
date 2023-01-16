@@ -2,7 +2,7 @@
 
 <dl>
 <dt><a href="#Entities">Entities</a></dt>
-<dd><p>Global lib that helps get entities you need</p>
+<dd><p>An interface to find and iterate over the script handles for the entities in play.<br>To iterate over a set of entities, pass null to the previous argument in the appropriate method to start an iteration, or reference to a previously found entity to continue a search. Example:</p>
 </dd>
 <dt><a href="#Entity">Entity</a></dt>
 <dd><p>This is a script handle class for entities. All entities spawned have a script handle using this or one of its subclasses.<br>All script handles in-game are accessible from Entities. Entity scripts can use self to access their own script handle. activator and caller variables can be accessed on function calls.</p>
@@ -12,7 +12,7 @@
 <a name="Entities"></a>
 
 ## Entities
-Global lib that helps get entities you need
+An interface to find and iterate over the script handles for the entities in play.  To iterate over a set of entities, pass null to the previous argument in the appropriate method to start an iteration, or reference to a previously found entity to continue a search. Example:
 
 **Kind**: global class  
 
