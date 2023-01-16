@@ -31,12 +31,10 @@ Panel that can have text content
 | a | <code>number</code> | 
 | i | <code>number</code> | 
 
----
 <a name="Label+ClearColorChangeStream"></a>
 
 ### label.ClearColorChangeStream()
 **Kind**: instance method of [<code>Label</code>](#Label)  
----
 <a name="Label+SetAllCaps"></a>
 
 ### label.SetAllCaps(state)
@@ -46,7 +44,6 @@ Panel that can have text content
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Label+SetAssociatedControl"></a>
 
 ### label.SetAssociatedControl(handle)
@@ -56,7 +53,6 @@ Panel that can have text content
 | --- | --- |
 | handle | [<code>Panel</code>](#Panel) | 
 
----
 <a name="Label+SetCenterWrap"></a>
 
 ### label.SetCenterWrap(state)
@@ -66,7 +62,6 @@ Panel that can have text content
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Label+SetContentAlignment"></a>
 
 ### label.SetContentAlignment(state)
@@ -76,7 +71,6 @@ Panel that can have text content
 | --- | --- |
 | state | <code>Alignment</code> | 
 
----
 <a name="Label+SetText"></a>
 
 ### label.SetText(text)
@@ -86,7 +80,6 @@ Panel that can have text content
 | --- | --- |
 | text | <code>string</code> | 
 
----
 <a name="Label+SetFont"></a>
 
 ### label.SetFont(fontIndex)
@@ -96,7 +89,6 @@ Panel that can have text content
 | --- | --- | --- |
 | fontIndex | <code>number</code> | that you can get via `surface.GetFont` |
 
----
 <a name="Label+SetTextInset"></a>
 
 ### label.SetTextInset(x, y)
@@ -107,7 +99,6 @@ Panel that can have text content
 | x | <code>number</code> | 
 | y | <code>number</code> | 
 
----
 <a name="Label+SetWrap"></a>
 
 ### label.SetWrap(state)
@@ -117,12 +108,9 @@ Panel that can have text content
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Label+SizeToContents"></a>
 
 ### label.SizeToContents()
 Resizes the panel to content
 
 **Kind**: instance method of [<code>Label</code>](#Label)  
----
----

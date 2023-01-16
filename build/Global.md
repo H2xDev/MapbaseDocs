@@ -36,7 +36,6 @@ Create a prop. The class should be a prop_physics style entity.
 | modelname | <code>string</code> | 
 | activity | <code>int</code> | 
 
----
 <a name="Global+CreateSceneEntity"></a>
 
 ### global.CreateSceneEntity(string) ⇒ <code>handle</code>
@@ -48,7 +47,6 @@ Create a scene entity to play the specified scene.
 | --- | --- |
 | string | <code>string</code> | 
 
----
 <a name="Global+DoIncludeScript"></a>
 
 ### global.DoIncludeScript(filename, scope) ⇒ <code>bool</code>
@@ -61,7 +59,6 @@ Execute the script file "scripts/vscripts/" + filename in the scope of scope. Th
 | filename | <code>string</code> | 
 | scope | <code>table</code> | 
 
----
 <a name="Global+IncludeScript"></a>
 
 ### global.IncludeScript(filename, scope) ⇒ <code>bool</code>
@@ -74,7 +71,6 @@ Execute the script file "scripts/vscripts/" + filename in the scope of scope, th
 | filename | <code>string</code> | 
 | scope | <code>table</code> | 
 
----
 <a name="Global+EntFire"></a>
 
 ### global.EntFire(target, action, value, delay, activator) ⇒ <code>function</code>
@@ -90,7 +86,6 @@ Generate an entity I/O event. Value, delay and activator are optional.
 | delay | <code>number</code> | 
 | activator | [<code>Entity</code>](#Entity) | 
 
----
 <a name="Global+EntFireByHandle"></a>
 
 ### global.EntFireByHandle(target, action, value, delay, activator, caller) ⇒ <code>void</code>
@@ -107,21 +102,18 @@ Generate an entity I/O event. First parameter is an entity instance.
 | activator | [<code>Entity</code>](#Entity) \| <code>string</code> | 
 | caller | [<code>Entity</code>](#Entity) \| <code>string</code> | 
 
----
 <a name="Global+FrameTime"></a>
 
 ### global.FrameTime() ⇒ <code>float</code>
 Get the time spent on the server in the last frame.
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
----
 <a name="Global+GetMapName"></a>
 
 ### global.GetMapName() ⇒ <code>string</code>
 Get the name of the map.
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
----
 <a name="Global+RandomFloat"></a>
 
 ### global.RandomFloat(min, max) ⇒ <code>float</code>
@@ -134,7 +126,6 @@ Generate a random floating point number within a range, inclusive
 | min | <code>float</code> | 
 | max | <code>float</code> | 
 
----
 <a name="Global+RandomInt"></a>
 
 ### global.RandomInt(min, max) ⇒ <code>int</code>
@@ -147,7 +138,6 @@ Generate a random integer within a range, inclusive
 | min | <code>int</code> | 
 | max | <code>int</code> | 
 
----
 <a name="Global+SendToConsole"></a>
 
 ### global.SendToConsole(command) ⇒ <code>void</code>
@@ -159,7 +149,6 @@ Send a string to the console as a command.
 | --- | --- |
 | command | <code>string</code> | 
 
----
 <a name="Global+ShowMessage"></a>
 
 ### global.ShowMessage(string) ⇒ <code>void</code>
@@ -171,14 +160,12 @@ Print a hud message on all clients
 | --- | --- |
 | string | <code>string</code> | 
 
----
 <a name="Global+Time"></a>
 
 ### global.Time() ⇒ <code>float</code>
 Get the current server time
 
 **Kind**: instance method of [<code>Global</code>](#Global)  
----
 <a name="Global+TraceLine"></a>
 
 ### global.TraceLine(start, end, ignored_ent) ⇒ <code>float</code>
@@ -192,7 +179,6 @@ Given 2 points and an entity to ignore, return fraction along line that hits wor
 | end | <code>Vector</code> | 
 | ignored_ent | [<code>Entity</code>](#Entity) | 
 
----
 <a name="Global+UniqueString"></a>
 
 ### global.UniqueString(suffix) ⇒ <code>string</code>
@@ -204,5 +190,3 @@ Generate a string guaranteed to be unique across the life of the script VM, with
 | --- | --- |
 | suffix | <code>string</code> | 
 
----
----

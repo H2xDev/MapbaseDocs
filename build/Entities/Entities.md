@@ -33,7 +33,6 @@ An interface to find and iterate over the script handles for the entities in pla
 ```js
 local ent = Entities.CreateByClassname("math_counter");ent.__KeyValueFromInt("max", 1);
 ```
----
 <a name="Entities+FindByName"></a>
 
 ### entities.FindByName(startEntity, targetName) ⇒ [<code>Entity</code>](#Entity) \| <code>null</code>
@@ -50,7 +49,6 @@ Returns entity by name
 ```js
 local ent = nullwhile (ent = Entities.FindByName(ent, "someEntity")) {   // Do something with entities with the same targetname}
 ```
----
 <a name="Entities+FindByClassname"></a>
 
 ### entities.FindByClassname(startEntity, className) ⇒ [<code>Entity</code>](#Entity)
@@ -67,7 +65,6 @@ Returns entity by className
 ```js
 local ent = nullwhile (ent = Entities.FindByClassname(ent, "someEntity")) {   // Do something with entities with the same targetname}
 ```
----
 <a name="Entities+FindByClassnameNearest"></a>
 
 ### entities.FindByClassnameNearest(className, location, radiuse) ⇒ [<code>Entity</code>](#Entity)
@@ -81,7 +78,6 @@ Find entities by class name nearest to a point.
 | location | <code>Vector</code> | 
 | radiuse | <code>number</code> | 
 
----
 <a name="Entities+FindByClassnameWithin"></a>
 
 ### entities.FindByClassnameWithin(startEnt, className, location, radius) ⇒ [<code>Entity</code>](#Entity)
@@ -96,7 +92,6 @@ Find entities by class name within a radius.Pass 'null' to start an iteration, 
 | location | <code>Vector</code> | 
 | radius | <code>number</code> | 
 
----
 <a name="Entities+FindByModel"></a>
 
 ### entities.FindByModel(startEnt, modelName) ⇒ [<code>Entity</code>](#Entity)
@@ -109,7 +104,6 @@ Find entities by model name. Pass 'null' to start an iteration, or reference to 
 | startEnt | [<code>Entity</code>](#Entity) | 
 | modelName | <code>string</code> | 
 
----
 <a name="Entities+FindByName"></a>
 
 ### entities.FindByName(startEnt, targetName) ⇒ [<code>Entity</code>](#Entity)
@@ -122,7 +116,6 @@ Find entities by model name. Pass 'null' to start an iteration, or reference to 
 | startEnt | [<code>Entity</code>](#Entity) | 
 | targetName | <code>string</code> | 
 
----
 <a name="Entities+FindByNameNearest"></a>
 
 ### entities.FindByNameNearest(className, location, radiuse) ⇒ [<code>Entity</code>](#Entity)
@@ -136,7 +129,6 @@ Find entities by name nearest to a point.
 | location | <code>Vector</code> | 
 | radiuse | <code>number</code> | 
 
----
 <a name="Entities+FindByNameWithin"></a>
 
 ### entities.FindByNameWithin(startEnt, className, location, radius) ⇒ [<code>Entity</code>](#Entity)
@@ -151,7 +143,6 @@ Find entities by name within a radius. Pass 'null' to start an iteration, or ref
 | location | <code>Vector</code> | 
 | radius | <code>number</code> | 
 
----
 <a name="Entities+FindByTarget"></a>
 
 ### entities.FindByTarget(startEnt, targetName)
@@ -164,7 +155,6 @@ Find entities with a specific `target` keyvalue. Pass 'null' to start an iterati
 | startEnt | [<code>Entity</code>](#Entity) \| <code>null</code> | 
 | targetName | <code>string</code> | 
 
----
 <a name="Entities+FindInSphere"></a>
 
 ### entities.FindInSphere(className, location, radiuse) ⇒ [<code>Entity</code>](#Entity)
@@ -178,14 +168,12 @@ Find entities within a radius. Pass 'null' to start an iteration, or reference t
 | location | <code>Vector</code> | 
 | radiuse | <code>number</code> | 
 
----
 <a name="Entities+First"></a>
 
 ### entities.First() ⇒ [<code>Entity</code>](#Entity)
 Begin an iteration over the list of entities. Equivalent to Next(null)
 
 **Kind**: instance method of [<code>Entities</code>](#Entities)  
----
 <a name="Entities+Next"></a>
 
 ### entities.Next(fromEntity) ⇒ [<code>Entity</code>](#Entity)
@@ -197,5 +185,3 @@ Continue an iteration over the list of entities, providing reference to a previo
 | --- | --- |
 | fromEntity | [<code>Entity</code>](#Entity) | 
 
----
----

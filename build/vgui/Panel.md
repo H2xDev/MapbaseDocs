@@ -59,14 +59,12 @@ Base element of VGUI system
 | --- | --- |
 | sign | <code>number</code> | 
 
----
 <a name="Panel+Destroy"></a>
 
 ### panel.Destroy()
 Destroys panel and its children
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+DrawBox"></a>
 
 ### panel.DrawBox(x, y, width, height, r, g, b, a, hollow)
@@ -90,7 +88,6 @@ Draws box in Panel  Enable painting before use
 ```js
 local panel = vgui.CreatePanel("Panel", vgui.GetRootPanel(), "SomePanel");panel.SetPaintEnabled(true);panel.SetCallback("Paint", function() {  panel.DrawBox(0, 0, panel.GetWide(), panel.GetTall(), 0, 0, 0, 1, false);});
 ```
----
 <a name="Panel+DrawBoxFade"></a>
 
 ### panel.DrawBoxFade(x, y, width, height, r, g, b, a, alpha0, alpha1, horizontal, hollow)
@@ -113,14 +110,12 @@ Draws box in Panel  Enable painting before use
 | horizontal | <code>boolean</code> |  |
 | hollow | <code>boolean</code> |  |
 
----
 <a name="Panel+GetAlpha"></a>
 
 ### panel.GetAlpha() ⇒ <code>number</code>
 Returns panel's alpha
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetChildren"></a>
 
 ### panel.GetChildren(handle) ⇒ <code>void</code>
@@ -132,84 +127,72 @@ Returns panel's children  NOTE: I'm not sure that it's correct
 | --- | --- |
 | handle | <code>?</code> | 
 
----
 <a name="Panel+GetName"></a>
 
 ### panel.GetName() ⇒ <code>string</code>
 Returns panel's name
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetTall"></a>
 
 ### panel.GetTall() ⇒ <code>number</code>
 Returns panel's height
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetWide"></a>
 
 ### panel.GetWide() ⇒ <code>number</code>
 Returns panel's width
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetParent"></a>
 
 ### panel.GetParent() ⇒ [<code>Panel</code>](#Panel)
 Returns panel's parent
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetXPos"></a>
 
 ### panel.GetXPos() ⇒ <code>number</code>
 Returns panel's x position
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetYPos"></a>
 
 ### panel.GetYPos() ⇒ <code>number</code>
 Returns panel's y position
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+GetZPos"></a>
 
 ### panel.GetZPos() ⇒ <code>number</code>
 Returns panel's z position
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+HasFocus"></a>
 
 ### panel.HasFocus() ⇒ <code>boolean</code>
 Returns panel's focus state
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+IsCursorOver"></a>
 
 ### panel.IsCursorOver() ⇒ <code>boolean</code>
 Returns is cursor over the panel
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+IsEnabled"></a>
 
 ### panel.IsEnabled() ⇒ <code>boolean</code>
 Returns panel's enable state
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+IsVisible"></a>
 
 ### panel.IsVisible() ⇒ <code>boolean</code>
 Returns panel's visibility state
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+SetVisible"></a>
 
 ### panel.SetVisible(state)
@@ -221,7 +204,6 @@ Sets panel's visibility state
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+IsWithin"></a>
 
 ### panel.IsWithin(x, y) ⇒ <code>boolean</code>
@@ -234,35 +216,30 @@ Returns panel is within coordinates
 | x | <code>number</code> | 
 | y | <code>number</code> | 
 
----
 <a name="Panel+MakePopup"></a>
 
 ### panel.MakePopup()
 Enables mouse and keyboard events for panel
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+MakeReadyForUse"></a>
 
 ### panel.MakeReadyForUse()
 Render panelNOTE: I'm not sure that this described properly
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+MoveToFront"></a>
 
 ### panel.MoveToFront()
 Moves panel above other panels
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+RequestFocus"></a>
 
 ### panel.RequestFocus()
 Enables focus state of the panel
 
 **Kind**: instance method of [<code>Panel</code>](#Panel)  
----
 <a name="Panel+SetAlpha"></a>
 
 ### panel.SetAlpha(alpha)
@@ -274,7 +251,6 @@ Sets alpha for panel
 | --- | --- | --- |
 | alpha | <code>number</code> | value between 0 and 1 |
 
----
 <a name="Panel+SetBgColor"></a>
 
 ### panel.SetBgColor(r, g, b, a)
@@ -289,7 +265,6 @@ Sets background color for panel
 | b | <code>number</code> | blue (0 - 255) |
 | a | <code>number</code> | alpha (0 - 255) |
 
----
 <a name="Panel+SetFgColor"></a>
 
 ### panel.SetFgColor(r, g, b, a)
@@ -304,7 +279,6 @@ Sets text color for panel
 | b | <code>number</code> | blue (0 - 255) |
 | a | <code>number</code> | alpha (0 - 255) |
 
----
 <a name="Panel+SetCallback"></a>
 
 ### panel.SetCallback(event, handler)
@@ -317,7 +291,6 @@ Sets callback for panel
 | event | <code>string</code> | 
 | handler | <code>function</code> | 
 
----
 <a name="Panel+SetCursor"></a>
 
 ### panel.SetCursor(signIndex)
@@ -329,7 +302,6 @@ Sets cursor sign
 | --- | --- |
 | signIndex | <code>Cursor</code> | 
 
----
 <a name="Panel+SetEnabled"></a>
 
 ### panel.SetEnabled(state)
@@ -341,7 +313,6 @@ Sets enable state for the panel
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetKeyBoardInputEnabled"></a>
 
 ### panel.SetKeyBoardInputEnabled(state)
@@ -353,7 +324,6 @@ Turns on/off keyboard events for panel
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetMouseInputEnabled"></a>
 
 ### panel.SetMouseInputEnabled(state)
@@ -365,7 +335,6 @@ Turns on/off mouse events for panel
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetPaintBackgroundEnabled"></a>
 
 ### panel.SetPaintBackgroundEnabled(state)
@@ -377,7 +346,6 @@ Enables/disables painting for panel's background
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetPaintBackgroundType"></a>
 
 ### panel.SetPaintBackgroundType(type)
@@ -389,7 +357,6 @@ Sets paint type for panel's background
 | --- | --- |
 | type | <code>PaintType</code> | 
 
----
 <a name="Panel+SetPaintBorderEnabled"></a>
 
 ### panel.SetPaintBorderEnabled(state)
@@ -401,7 +368,6 @@ Enables/disables border painting
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetPaintEnabled"></a>
 
 ### panel.SetPaintEnabled(state)
@@ -413,7 +379,6 @@ Enables/disables painting
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetParent"></a>
 
 ### panel.SetParent(panel)
@@ -425,7 +390,6 @@ Sets parent for the panel
 | --- | --- |
 | panel | [<code>Panel</code>](#Panel) | 
 
----
 <a name="Panel+SetPos"></a>
 
 ### panel.SetPos(x, y)
@@ -438,7 +402,6 @@ Sets position for the panel
 | x | <code>number</code> | 
 | y | <code>number</code> | 
 
----
 <a name="Panel+SetSize"></a>
 
 ### panel.SetSize(width, height)
@@ -451,7 +414,6 @@ Sets size for the panel
 | width | <code>number</code> | 
 | height | <code>number</code> | 
 
----
 <a name="Panel+SetTall"></a>
 
 ### panel.SetTall(height)
@@ -463,7 +425,6 @@ Sets height for the panel
 | --- | --- |
 | height | <code>number</code> | 
 
----
 <a name="Panel+SetWide"></a>
 
 ### panel.SetWide(width)
@@ -475,7 +436,6 @@ Sets width for the panel
 | --- | --- |
 | width | <code>number</code> | 
 
----
 <a name="Panel+SetZPos"></a>
 
 ### panel.SetZPos(z)
@@ -487,7 +447,6 @@ Sets z position for the panel
 | --- | --- |
 | z | <code>number</code> | 
 
----
 <a name="Panel+SetPostChildPaintEnabled"></a>
 
 ### panel.SetPostChildPaintEnabled(state)
@@ -499,7 +458,6 @@ Enables/disables drawing above children
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
 <a name="Panel+SetPanelInteractive"></a>
 
 ### panel.SetPanelInteractive(state)
@@ -511,5 +469,3 @@ Enables/disables interactive state for panel
 | --- | --- |
 | state | <code>boolean</code> | 
 
----
----
