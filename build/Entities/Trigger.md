@@ -10,6 +10,7 @@ Entity class for triggers, so entities like trigger_once or script_trigger_hurt 
     * [.Enable()](#Trigger+Enable) ⇒ <code>void</code>
     * [.IsTouching(entity)](#Trigger+IsTouching) ⇒ <code>bool</code>
 
+<br />
 ---
 <a name="Trigger+Disable"></a>
 
@@ -17,6 +18,7 @@ Entity class for triggers, so entities like trigger_once or script_trigger_hurt 
 Disable the trigger from thinking. Identical to theDisableinput.
 
 **Kind**: instance method of [<code>Trigger</code>](#Trigger)  
+<br />
 ---
 <a name="Trigger+Enable"></a>
 
@@ -24,6 +26,7 @@ Disable the trigger from thinking. Identical to theDisableinput.
 Enable the trigger from thinking. Identical to theEnableinput.
 
 **Kind**: instance method of [<code>Trigger</code>](#Trigger)  
+<br />
 ---
 <a name="Trigger+IsTouching"></a>
 
@@ -36,4 +39,5 @@ Checks whether the passed entity is touching the trigger.
 | --- | --- |
 | entity | [<code>Entity</code>](#Entity) | 
 
+<br />
 ---

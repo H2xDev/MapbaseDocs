@@ -9,6 +9,7 @@ Animated characters who have vertex flex capability (e.g., facial expressions).
     * [.GetCurrentScene()](#BaseFlex+GetCurrentScene) ⇒ [<code>Entity</code>](#Entity)
     * [.GetSceneByIndex(sceneIndex)](#BaseFlex+GetSceneByIndex) ⇒ <code>SceneEntity</code>
 
+<br />
 ---
 <a name="BaseFlex+GetCurrentScene"></a>
 
@@ -16,6 +17,7 @@ Animated characters who have vertex flex capability (e.g., facial expressions).
 Returns the instance of the oldest active scene entity (if any).
 
 **Kind**: instance method of [<code>BaseFlex</code>](#BaseFlex)  
+<br />
 ---
 <a name="BaseFlex+GetSceneByIndex"></a>
 
@@ -28,4 +30,5 @@ Returns the instance of the scene entity at the specified index.
 | --- | --- |
 | sceneIndex | <code>int</code> | 
 
+<br />
 ---
