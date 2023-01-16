@@ -77,7 +77,7 @@ function generateContentsLines(object, folder = '/', level = 0) {
       contentsLines.push(indent + '- ' + `[${key}](${folder + key + ext})`);
 
       if (obj) {
-        generateContentsLines(obj, folder + key, level + 1);
+        generateContentsLines(obj, folder + key + '/', level + 1);
       }
     });
 }
