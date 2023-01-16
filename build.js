@@ -68,7 +68,7 @@ classNames.forEach(className => {
 
 const contentsLines = [];
 
-function generateContentsLines(object, folder = '/', level = 0) {
+function generateContentsLines(object, folder = 'build/', level = 0) {
   Object
     .entries(object)
     .forEach(([key, obj]) => {

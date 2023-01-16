@@ -1,10 +1,10 @@
 # Mapbase VScript Docs
 
 ## Contents
-- [Entities](/Entities)
-  - [Entities](/Entities/Entities.md)
-  - [Entity](/Entities/Entity.md)
-- [vgui](/vgui)
-  - [Button](/vgui/Button.md)
-  - [Label](/vgui/Label.md)
-  - [Panel](/vgui/Panel.md)
+- [Entities](build/Entities)
+  - [Entities](build/Entities/Entities.md)
+  - [Entity](build/Entities/Entity.md)
+- [vgui](build/vgui)
+  - [Button](build/vgui/Button.md)
+  - [Label](build/vgui/Label.md)
+  - [Panel](build/vgui/Panel.md)
