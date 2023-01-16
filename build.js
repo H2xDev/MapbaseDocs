@@ -33,9 +33,12 @@ function registerContents(path) {
 const classNames = templateData.reduce((classNames, identifier) => {
   if (identifier.kind !== 'class') return classNames;
 
-  const path = identifier.meta.path
+  let path = identifier.meta.path
     .replace(inputDir, '')
     .replace('\\', "") + '/' + identifier.name;
+
+  path = path.replace(/^\//, '');
+
 
   registerContents(path)
 
