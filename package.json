@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "npx jsdoc2md ./docs/*.js > readme.md"
+  },
+  "dependencies": {
+    "clean-jsdoc-theme": "^4.2.2",
+    "jsdoc-to-markdown": "^8.0.0",
+    "tidy-jsdoc": "^1.4.1"
+  }
+}
