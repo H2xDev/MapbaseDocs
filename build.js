@@ -64,7 +64,9 @@ classNames.forEach(className => {
 
   fs.mkdirSync(targetFolder.join('/'), { recursive: true });
 
-  const output = jsdoc2md.renderSync({ data: templateData, template: template, partial: './partials/separator.hbs' })
+  const partial = path.resolve(__dirname, 'partials/docs.hbs');
+
+  const output = jsdoc2md.renderSync({ data: templateData, template: template, partial })
   fs.writeFileSync(dest, output);
 });
 
