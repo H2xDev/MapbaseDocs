@@ -3,6 +3,8 @@ import {Label} from "./Label.js";
 /**
  * Default VGUI button
  *
+ * @extends Label
+ * @extends Panel
  */
 export class Button extends Label {
   /**
