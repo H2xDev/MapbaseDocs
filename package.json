@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "npx jsdoc2md ./docs/*.js > readme.md && git add -A && git commit -m 'Update' && git push origin master"
+    "build": "node build.js && git add -A && git commit -m 'Update' && git push origin master"
   },
   "dependencies": {
     "clean-jsdoc-theme": "^4.2.2",
