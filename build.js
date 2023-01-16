@@ -68,16 +68,16 @@ classNames.forEach(className => {
 
 const contentsLines = [];
 
-function generateContentsLines(object, folder = 'build', level = 0) {
+function generateContentsLines(object, folder = '/', level = 0) {
   Object
     .entries(object)
     .forEach(([key, obj]) => {
       const indent = new Array(level * 2).fill(' ').join('');
       const ext = !obj ? '.md' : '';
-      contentsLines.push(indent + '- ' + `[${key}](${folder + '/' + key + ext})`);
+      contentsLines.push(indent + '- ' + `[${key}](${folder + key + ext})`);
 
       if (obj) {
-        generateContentsLines(obj, folder + '/' + key, level + 1);
+        generateContentsLines(obj, folder + key, level + 1);
       }
     });
 }
