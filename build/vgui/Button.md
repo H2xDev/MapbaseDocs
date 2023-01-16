@@ -25,22 +25,22 @@ Default VGUI button
     * [.SetSelected(state)](#Button+SetSelected)
     * [.SetSelectedColor(r, g, b, a, i, j, k, l)](#Button+SetSelectedColor)
 
-WOOOW
+---
 <a name="Button+ForceDepressed"></a>
 
 ### button.ForceDepressed()
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+HasFocus"></a>
 
 ### button.HasFocus() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+IsArmed"></a>
 
 ### button.IsArmed() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+SetArmed"></a>
 
 ### button.SetArmed(state)
@@ -50,7 +50,7 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Button+SetArmedSound"></a>
 
 ### button.SetArmedSound(sndFile)
@@ -60,7 +60,7 @@ WOOOW
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-WOOOW
+---
 <a name="Button+SetArmedColor"></a>
 
 ### button.SetArmedColor(r, g, b, a, i, j, k, l)
@@ -77,27 +77,27 @@ WOOOW
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-WOOOW
+---
 <a name="Button+IsDepressed"></a>
 
 ### button.IsDepressed() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+IsMouseClickEnabled"></a>
 
 ### button.IsMouseClickEnabled() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+SetMouseClickEnabled"></a>
 
 ### button.SetMouseClickEnabled() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+IsSelected"></a>
 
 ### button.IsSelected() ⇒ <code>boolean</code>
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+SetSelected"></a>
 
 ### button.SetSelected(state)
@@ -107,12 +107,12 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Button+SetButtonActivationType"></a>
 
 ### button.SetButtonActivationType()
 **Kind**: instance method of [<code>Button</code>](#Button)  
-WOOOW
+---
 <a name="Button+SetDefaultColor"></a>
 
 ### button.SetDefaultColor(r, g, b, a, i, j, k, l)
@@ -129,7 +129,7 @@ WOOOW
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-WOOOW
+---
 <a name="Button+SetDepressedColor"></a>
 
 ### button.SetDepressedColor(r, g, b, a, i, j, k, l)
@@ -146,7 +146,7 @@ WOOOW
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-WOOOW
+---
 <a name="Button+SetDepressedSound"></a>
 
 ### button.SetDepressedSound(sndFile)
@@ -156,7 +156,7 @@ WOOOW
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-WOOOW
+---
 <a name="Button+SetReleasedSound"></a>
 
 ### button.SetReleasedSound(sndFile)
@@ -166,7 +166,7 @@ WOOOW
 | --- | --- |
 | sndFile | <code>string</code> | 
 
-WOOOW
+---
 <a name="Button+SetSelected"></a>
 
 ### button.SetSelected(state)
@@ -176,7 +176,7 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Button+SetSelectedColor"></a>
 
 ### button.SetSelectedColor(r, g, b, a, i, j, k, l)
@@ -193,4 +193,4 @@ WOOOW
 | k | <code>number</code> | 
 | l | <code>number</code> | 
 
-WOOOW
+---

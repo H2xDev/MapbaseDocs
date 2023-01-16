@@ -18,7 +18,7 @@ Panel that can have text content
     * [.SetWrap(state)](#Label+SetWrap)
     * [.SizeToContents()](#Label+SizeToContents)
 
-WOOOW
+---
 <a name="Label+AddColorChange"></a>
 
 ### label.AddColorChange(r, g, b, a, i)
@@ -32,12 +32,12 @@ WOOOW
 | a | <code>number</code> | 
 | i | <code>number</code> | 
 
-WOOOW
+---
 <a name="Label+ClearColorChangeStream"></a>
 
 ### label.ClearColorChangeStream()
 **Kind**: instance method of [<code>Label</code>](#Label)  
-WOOOW
+---
 <a name="Label+SetAllCaps"></a>
 
 ### label.SetAllCaps(state)
@@ -47,7 +47,7 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Label+SetAssociatedControl"></a>
 
 ### label.SetAssociatedControl(handle)
@@ -57,7 +57,7 @@ WOOOW
 | --- | --- |
 | handle | [<code>Panel</code>](#Panel) | 
 
-WOOOW
+---
 <a name="Label+SetCenterWrap"></a>
 
 ### label.SetCenterWrap(state)
@@ -67,7 +67,7 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Label+SetContentAlignment"></a>
 
 ### label.SetContentAlignment(state)
@@ -77,7 +77,7 @@ WOOOW
 | --- | --- |
 | state | <code>Alignment</code> | 
 
-WOOOW
+---
 <a name="Label+SetText"></a>
 
 ### label.SetText(text)
@@ -87,7 +87,7 @@ WOOOW
 | --- | --- |
 | text | <code>string</code> | 
 
-WOOOW
+---
 <a name="Label+SetFont"></a>
 
 ### label.SetFont(fontIndex)
@@ -97,7 +97,7 @@ WOOOW
 | --- | --- | --- |
 | fontIndex | <code>number</code> | that you can get via `surface.GetFont` |
 
-WOOOW
+---
 <a name="Label+SetTextInset"></a>
 
 ### label.SetTextInset(x, y)
@@ -108,7 +108,7 @@ WOOOW
 | x | <code>number</code> | 
 | y | <code>number</code> | 
 
-WOOOW
+---
 <a name="Label+SetWrap"></a>
 
 ### label.SetWrap(state)
@@ -118,11 +118,11 @@ WOOOW
 | --- | --- |
 | state | <code>boolean</code> | 
 
-WOOOW
+---
 <a name="Label+SizeToContents"></a>
 
 ### label.SizeToContents()
 Resizes the panel to content
 
 **Kind**: instance method of [<code>Label</code>](#Label)  
-WOOOW
+---
