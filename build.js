@@ -65,4 +65,18 @@ classNames.forEach(className => {
   fs.writeFileSync(dest, output);
 });
 
-console.log(contents);
+
+const contentsLines = [];
+
+function generateContentsLines(object, level = 0) {
+  Object
+    .entries(contents)
+    .forEach(([key, object]) => {
+      const indent = new Array(level * 2).fill(' ').join('');
+      contentsLines.push(indent + key);
+    })
+}
+
+generateContentsLines(contents);
+
+console.log(contentsLines);
