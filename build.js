@@ -83,4 +83,8 @@ function generateContentsLines(object, level = 0) {
 
 generateContentsLines(contents);
 
-console.log(contentsLines.join('\n'));
+const readmeTemplate = fs.readFileSync('readme-template.md').toString();
+
+readmeTemplate.replace('{{ CONTENTS }}', contentsLines.join('\n'));
+
+fs.writeFileSync('build/readme.md', readmeTemplate);
