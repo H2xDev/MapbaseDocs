@@ -73,7 +73,7 @@ function generateContentsLines(object, level = 0) {
     .entries(object)
     .forEach(([key, obj]) => {
       const indent = new Array(level * 2).fill(' ').join('');
-      contentsLines.push(indent + key);
+      contentsLines.push(indent + '- ' + key);
 
       if (obj) {
         generateContentsLines(obj, level + 1);
