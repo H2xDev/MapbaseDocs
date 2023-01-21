@@ -3,6 +3,8 @@ The sources of docs is actually `javascript` files with empty classes with metho
 that documented via [JSDoc](https://jsdoc.app/) format. After then `jsdoc-to-markdown` builds these
 files into md files to `build` folder.  
 
+## Build
+You can read the current version here: [API](build/)
 
 ## Development
 ### Requirements
