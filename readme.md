@@ -4,7 +4,7 @@ that documented via [JSDoc](https://jsdoc.app/) format. After then `jsdoc-to-mar
 files into md files to `build` folder.  
 
 ## Build
-You can read the current version here: [API](build/)
+You can read the current version here: [API](build/), [Tutorials](wiki/)
 
 ## Development
 ### Requirements
